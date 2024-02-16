@@ -10,7 +10,7 @@ function App() {
   const [showval, setShowval] = useState("");
   const cartCountRef = useRef();
   const cartProps = {
-    title: "AddToCart",
+    title: "Add To Cart",
     maxVal: 10,
     minVal: 0,
     initialVal: 2,
